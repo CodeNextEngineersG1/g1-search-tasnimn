@@ -130,11 +130,11 @@ function getAutoSuggestions(){
 
 	for (var i = 0; i < database.length; i++){
 		var cleanedRecordName = database[i].name.toLowerCase().trim();
-		if (stringOne.startsWith(stringTwo) && cleanedInput.length > 0) {
+		if (cleanedRecordName.startsWith(cleanedInput) && cleanedInput.length > 0) {
 			var matching = name.substring(0, searchBar.value.length);
 			var remaining = name.substring(searchBar.value.length);
 			var result = matching + "<b>" + remaining + "</b>";
-			var button = docu                                                                                                   ment.createElement("button");
+			var button = document.createElement("button");                                                                                                  ment.createElement("button");
 			button.innerHTML = button;
 			button.style.display = "block";
 			button.className = "suggestion";
@@ -151,9 +151,27 @@ function getAutoSuggestions(){
 	}
 function activateSuggestionButton(button, record) {
   button.addEventListener("click", function() {
-    
+    displayRecord(record);
+    autoSuggestions.innerHTML = "";
+    autoSuggestions.style.display = "none";
+    searchBar.value = "";
   });
 }
 
+function getSuggestions(cleanedInput) {
+  var suggestions = [];
+  for (var i = 0; i < database.length; i++) {
+    var cleanedRecordName = database[i].name.toLowerCase().trim();
+    if (cleanedRecordName.startsWith(cleanedInput) && cleanedInput.length > 0) {
+      suggestions.push(database[i]);
+    }
 
+  }
+  return suggestions;
+}
+function displaySuggestions(suggestions) {
+  display.innerHTML = "";
+  var paragraph = document.createElement("p");
+  if 
+}
 }
