@@ -1,17 +1,67 @@
 [
   {
-    "replace":"this",
-    "with":"your",
-    "own":"data"
+    "name":"Harry James Potter",
+    "nicknames": ["Boy Who Lived", "Choosen One"],
+    "born":"July 31, 1980",
+    "died":null,
+    "picture": "img/harry.jpg",
+    "house":"Gryffindor",
+    "patronus":"Stag",
+    "siblings":null
   },
   {
-    "replace":"this",
-    "with":"your",
-    "own":"data"
+    "name":"Hermione Jean Granger",
+    "born":"September 19, 1979",
+    "died":null,
+    "picture": "img/hermione.jpg",
+    "house":"Gryffindor",
+    "patronus":"Otter",
+    "siblings":null
   },
   {
-    "replace":"this",
-    "with":"your",
-    "own":"data"
+    "name":"Ronald Billus Weasley",
+    "born":"March 1, 1980",
+    "died":null,
+    "picture": "img/ron.jpg",
+    "house":"Gryffindor",
+    "patronus":"Jack Russell Terrier",
+    "siblings":["Bill Weasley","Charlie Weasley", "Percy Weasley", "Fred Weasley", "George Weasley","Ginevra Weasley"]
+  },
+  {
+    "name":"Albus Percival Wulfric Brian Dumbledore",
+    "born":"Summer, 1881",
+    "died":"June 30, 1997",
+    "picture": "img/dumbledore.jpg",
+    "house":"Gryffindor",
+    "patronus":"Phoenix",
+    "siblings":["Aberforth Dumbledore", "Ariana Dumbledore"]
+  },
+  {
+    "name":"Draco Lucius Malfoy",
+    "born":"June 5, 1980",
+    "died":null,
+    "picture": "img/draco.jpg",
+    "house":"Slytherin",
+    "patronus":null,
+    "siblings":null
+  },
+  {
+    "name":"Tom Marvolo Riddle",
+    "nicknames": ["Lord Voldemort", "You-Know-Who", "He-Who-Must-Not-Be-named", "The Dark Lord"],
+    "born":"December 31, 1926",
+    "died":"May 21, 1998",
+    "picture": "img/voldemort.jpg",
+    "house":"Slytherin",
+    "patronus":null,
+    "siblings":null
+  },
+  {
+    "name":"Severus Snape",
+    "born":"January 9, 1960",
+    "died":"May 2, 1998",
+    "picture": "img/snape.jpg",
+    "house":"Slytherin",
+    "patronus":"Doe",
+    "siblings":null
   }
 ]

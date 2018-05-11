@@ -23,6 +23,13 @@ div #display {
 	text-align: left;
 }
 
+div #auto-suggestions {
+  display: none;
+  border: 1px solid grey;
+  margin: 0 auto;
+  max-width: 25%;
+}
+
 
 #display img {
   display: block;
@@ -33,4 +40,11 @@ div #display {
 
 #display h2 {
   text-align: center;
+}
+
+button #suggestion {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #ff0000;
 }
